@@ -61,7 +61,7 @@ input {
 
 .forgot {
   color: #16327B;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   display: flex;
   margin-bottom: 1.875rem;
@@ -71,7 +71,7 @@ input {
 button {
   color: #FFF;
   text-align: center;
-  font-size: 31px;
+  font-size: 25px;
   border: none;
   width: 100%;
   background-color: #16327B;
@@ -88,7 +88,12 @@ button {
   margin: 10px;
 }
 
-/* Logos Styles */
+.other:hover,
+.forgot:hover {
+  color: #314b8e;
+  text-decoration: underline;
+}
+
 .logos {
   margin-top: 8px;
   padding: 0 20px;
@@ -97,7 +102,6 @@ button {
   align-items: center;
 }
 
-/* Logo Styles */
 .logos .logo {
   border-radius: 50%;
   margin: 10px;
