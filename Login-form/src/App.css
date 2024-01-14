@@ -1,0 +1,108 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ACABAB;
+}
+
+.main {
+  background: url(splashing.jpg);
+  width: 47.625rem;
+  height: 30.4375rem;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: end;
+}
+
+.login--field {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 21.6875rem;
+  height: 29.0625rem;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 1px 21px 15.4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5.300000190734863px);
+  padding: 10px 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #16327B;
+  text-align: center;
+  margin-bottom: 2.75rem;
+}
+
+input {
+  border: none;
+  outline: none;
+  color: #16327B;
+  caret-color: #16327B;
+  width: 100%;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(210, 212, 216, 0.31);
+}
+
+.forgot {
+  color: #16327B;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  margin-bottom: 1.875rem;
+  justify-content: end;
+}
+
+button {
+  color: #FFF;
+  text-align: center;
+  font-size: 31px;
+  border: none;
+  width: 100%;
+  background-color: #16327B;
+  outline: none;
+  border-radius: 5px;
+  padding: 0 3.75rem;
+}
+
+.other {
+  color: #16327B;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  margin: 10px;
+}
+
+/* Logos Styles */
+.logos {
+  margin-top: 8px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Logo Styles */
+.logos .logo {
+  border-radius: 50%;
+  margin: 10px;
+  padding: 7px;
+  background-color: #ECE9EC;
+  border: 1px solid #d3d3d3;
+  cursor: pointer;
+}
