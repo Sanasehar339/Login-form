@@ -35,7 +35,7 @@ const App = () => {
             onChange={handleChange}
             value={input.email}
             required
-            className="m-2 p-1 bg-transparent border-b-2 caret-blue-600 outline-none"
+            className="input"
           />
           <input
             type="password"
@@ -44,7 +44,7 @@ const App = () => {
             onChange={handleChange}
             value={input.password}
             required
-            className="m-2 p-1 bg-transparent border-b-2 caret-blue-600 outline-none"
+            className="input"
           />
           <button className="bg-blue-600 p-1 mt-7 rounded-sm text-base active:scale-95">
             Login
