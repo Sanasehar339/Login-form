@@ -10,14 +10,14 @@ const RegisterPage = ({ handleSubmit }) => {
       <div>
         <form className="form-2" onSubmit={handleSubmit}>
           <h1>Please Fill out form to Register!</h1>
-          <label className="m-1" htmlFor="text-1">
+          <label className="m-1" htmlFor="fullname">
             Full name:
           </label>
-          <input name="text-1" type="text" />
-          <label className="m-1" htmlFor="text-2">
+          <input name="fullname" type="text" />
+          <label className="m-1" htmlFor="username">
             Username:
           </label>
-          <input name="text-2" type="text" />
+          <input name="username" type="text" />
           <label className="m-1" htmlFor="email">
             Email:
           </label>
@@ -26,10 +26,10 @@ const RegisterPage = ({ handleSubmit }) => {
             Password:
           </label>
           <input name="password-1" type="password" />
-          <label className="m-1" htmlFor="password-2">
+          <label className="m-1" htmlFor="confirmPassword">
             Confirm Password:
           </label>
-          <input name="password-2" type="password" />
+          <input name="confirmPassword" type="password" />
           <button className="p-1 rounded-full mt-6 bg-blue-500">
             Register
           </button>
